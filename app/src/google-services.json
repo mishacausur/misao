@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "904699933019",
+    "firebase_url": "https://misao-dfd5d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "misao-dfd5d",
+    "storage_bucket": "misao-dfd5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904699933019:android:a13a6129f74774f6e0aa7e",
+        "android_client_info": {
+          "package_name": "com.example.misao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIdNg_aWq0tr160NYk_bdoYzmLJFSFOqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
