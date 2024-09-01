@@ -51,18 +51,14 @@ class MainActivity : AppCompatActivity() {
         layout.addView(button)
 
         val textParams = textView.layoutParams as ConstraintLayout.LayoutParams
-        text
-        textParams.topToTop = MATCH_PARENT
-        textParams.startToStart = MATCH_PARENT
-        textParams.endToEnd = MATCH_PARENT
 
         val buttonParams = button.layoutParams as ConstraintLayout.LayoutParams
         buttonParams.topToBottom = 150
         buttonParams.startToStart = MATCH_PARENT
         buttonParams.endToEnd = MATCH_PARENT
 
-        textParams.verticalChainStyle = ConstraintLayout.LayoutParams.CHAIN_PACKED
-        buttonParams.verticalChainStyle = ConstraintLayout.LayoutParams.CHAIN_PACKED
+        textParams.verticalBias = 0.5F
+        buttonParams.verticalBias = 0.5F
         setContentView(layout)
     }
 }
